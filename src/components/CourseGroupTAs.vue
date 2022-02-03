@@ -47,7 +47,7 @@
       <div class="course-group-tas-container" id="prev-term-tas-container">
         <div class="course-group-tas-header">
           <div style="margin: auto">
-            ترم قبل
+            ترم قبل ({{ apidata.prev_term.title }})
           </div>
         </div>
 
@@ -78,7 +78,7 @@
       <div class="course-group-tas-container" id="cur-term-tas-container">
         <div class="course-group-tas-header">
           <div style="margin: auto">
-            ترم جاری
+            ترم جاری ({{ apidata.cur_term.title }})
           </div>
         </div>
         <div id="gradery-request-btn" class="show-modal" @click="showGraderyRequestModal()">
